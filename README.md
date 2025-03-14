@@ -6,12 +6,12 @@
 ### Overview
 Lakehouse Nexus is an end-to-end data pipeline built using Azure’s Medallion Architecture (Bronze, Silver, and Gold layers). This project showcases a scalable and efficient data engineering workflow that transforms raw data into meaningful insights using Azure Data Factory, Databricks, Synapse, and Power BI.
 
-### Architecture Overview 🏗️\
-🔹 Bronze Layer (Raw Data Ingestion):\
+### Architecture Overview 🏗️
+🔹 Bronze Layer (Raw Data Ingestion):
 
 Data is collected from an HTTP API using Azure Data Factory (ADF).
-Stored in Azure Data Lake Gen2 as raw data.\
-🔹 Silver Layer (Data Transformation):\
+Stored in Azure Data Lake Gen2 as raw data.
+🔹 Silver Layer (Data Transformation):
 
 Azure Databricks processes and cleans the raw data.
 Transformations include data filtering, deduplication, and normalization.
