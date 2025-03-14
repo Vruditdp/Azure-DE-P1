@@ -15,18 +15,18 @@ Stored in Azure Data Lake Gen2 as raw data.
 
 Azure Databricks processes and cleans the raw data.
 Transformations include data filtering, deduplication, and normalization.
-Refined data is stored back into Azure Data Lake Gen2.\
-🔹 Gold Layer (Data Serving & Analytics):\
+Refined data is stored back into Azure Data Lake Gen2.
+🔹 Gold Layer (Data Serving & Analytics):
 
 Azure Synapse pulls transformed data from Data Lake and creates serving tables using SQL.
-Data is optimized for reporting and business insights.\
-🔹 Reporting & Visualization:\
+Data is optimized for reporting and business insights.
+🔹 Reporting & Visualization:
 
-Power BI connects to Synapse to generate interactive dashboards.\
-### Technology Stack 🛠️\
-✅ Azure Data Factory – Data ingestion from HTTP API.\
-✅ Azure Data Lake Gen2 – Storage for raw and transformed data.\
-✅ Azure Databricks – Data transformation and processing.\
-✅ Azure Synapse Analytics – Data warehouse and serving layer.\
-✅ Power BI – Visualization and reporting.\
-✅ SQL – Data transformation in the Gold layer.\
+Power BI connects to Synapse to generate interactive dashboards.
+### Technology Stack 🛠️
+✅ Azure Data Factory – Data ingestion from HTTP API.
+✅ Azure Data Lake Gen2 – Storage for raw and transformed data.
+✅ Azure Databricks – Data transformation and processing.
+✅ Azure Synapse Analytics – Data warehouse and serving layer.
+✅ Power BI – Visualization and reporting.
+✅ SQL – Data transformation in the Gold layer.
